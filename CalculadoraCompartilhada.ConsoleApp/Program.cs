@@ -64,8 +64,6 @@ namespace CalculadoraCompartilhada.ConsoleApp
                 Console.Write("Digite o primeiro número: ");
                 primeiroNumero = Convert.ToDouble(Console.ReadLine());
 
-
-
                 do
                 {
                     Console.Write("Digite o segundo número: ");
@@ -122,8 +120,6 @@ namespace CalculadoraCompartilhada.ConsoleApp
 
                 Console.WriteLine();
 
-
-
                 Console.ReadLine();
 
                 Console.Clear();
@@ -138,19 +134,22 @@ namespace CalculadoraCompartilhada.ConsoleApp
 
         private static void MenuInicialCalculadora()
         {
-            Console.WriteLine("Calculadora 1.1");
-
-            Console.WriteLine("Digite 1 para somar");
-
-            Console.WriteLine("Digite 2 para subtrair");
-
-            Console.WriteLine("Digite 3 para multiplicar");
-
-            Console.WriteLine("Digite 4 para dividir");
-
-            Console.WriteLine("Digite 5 para apresentar as operacoes");
-
-            Console.WriteLine("Digite S para sair");
+            Console.WriteLine("      ╔═════════════════╗");
+            Console.WriteLine("      ║ Calculadora 1.1 ║");
+            Console.WriteLine("╔═════════════════════════════╗");
+            Console.WriteLine("║                             ║");
+            Console.WriteLine("║           Digite:           ║");
+            Console.WriteLine("║                             ║");
+            Console.WriteLine("║        1: Somar             ║");
+            Console.WriteLine("║        2: Subtrair          ║");
+            Console.WriteLine("║        3: Multiplicar       ║");
+            Console.WriteLine("║        4: Dividir           ║");
+            Console.WriteLine("║                             ║");
+            Console.WriteLine("║  5: Historico de Operacoes  ║");
+            Console.WriteLine("║                             ║");
+            Console.WriteLine("║═════════════════════════════║");
+            Console.WriteLine("║      S para sair            ║");
+            Console.WriteLine("╚═════════════════════════════╝");
         }
     }
 }
