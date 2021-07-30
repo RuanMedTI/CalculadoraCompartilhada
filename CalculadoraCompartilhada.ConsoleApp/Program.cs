@@ -42,7 +42,6 @@ namespace CalculadoraCompartilhada.ConsoleApp
                     }
                     else
                     {
-
                         for (int i = 0; i < operacoesRealizadas.Length; i++)
                         {
                             if (operacoesRealizadas[i] != null)
@@ -106,7 +105,6 @@ namespace CalculadoraCompartilhada.ConsoleApp
                         simboloOperacao = "/";
                         break;
 
-
                     default:
                         break;
                 }
@@ -150,7 +148,7 @@ namespace CalculadoraCompartilhada.ConsoleApp
             Console.WriteLine("║  5: Historico de Operacoes  ║");
             Console.WriteLine("║                             ║");
             Console.WriteLine("║═════════════════════════════║");
-            Console.WriteLine("║      S para sair            ║");
+            Console.WriteLine("║        S para sair          ║");
             Console.WriteLine("╚═════════════════════════════╝");
         }
     }
