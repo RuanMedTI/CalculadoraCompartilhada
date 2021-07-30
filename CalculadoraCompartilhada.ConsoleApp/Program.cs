@@ -85,6 +85,48 @@ namespace CalculadoraCompartilhada.ConsoleApp
                 double resultado = 0;
 
                 string simboloOperacao = "";
+
+                switch (opcao)
+                {
+                    case "1":
+                        resultado = primeiroNumero + segundoNumero;
+                        simboloOperacao = "+";
+                        break;
+
+                    case "2":
+                        resultado = primeiroNumero - segundoNumero;
+                        simboloOperacao = "-";
+                        break;
+                    case "3":
+                        resultado = primeiroNumero * segundoNumero;
+                        simboloOperacao = "*";
+                        break;
+                    case "4":
+                        resultado = primeiroNumero / segundoNumero;
+                        simboloOperacao = "/";
+                        break;
+
+
+                    default:
+                        break;
+                }
+
+                string operacaoRealizada =
+                    primeiroNumero.ToString() + simboloOperacao +
+                    segundoNumero.ToString() + " = " + resultado.ToString();
+
+                operacoesRealizadas[contadorOperacoesRealizadas] = operacaoRealizada;
+                contadorOperacoesRealizadas++;
+
+                Console.WriteLine(resultado);
+
+                Console.WriteLine();
+
+
+
+                Console.ReadLine();
+
+                Console.Clear();
             }
         }
 
