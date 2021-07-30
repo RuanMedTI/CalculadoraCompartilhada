@@ -16,7 +16,7 @@ namespace CalculadoraCompartilhada.ConsoleApp
 
             while (true)
             {
-                MenuInicialCalculadora();
+                MenuOpcoesDeCalculos();
 
                 opcao = Console.ReadLine();
 
@@ -132,7 +132,7 @@ namespace CalculadoraCompartilhada.ConsoleApp
                                 opcao != "4" && opcao != "5" && opcao != "S" && opcao != "s";
         }
 
-        private static void MenuInicialCalculadora()
+        private static void MenuOpcoesDeCalculos()
         {
             Console.WriteLine("      ╔═════════════════╗");
             Console.WriteLine("      ║ Calculadora 1.1 ║");
