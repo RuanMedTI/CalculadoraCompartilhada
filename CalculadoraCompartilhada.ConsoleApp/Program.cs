@@ -11,7 +11,11 @@ namespace CalculadoraCompartilhada.ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("Calculadora 1.1");
+            MenuInicialCalculadora();
+        }
 
+        private static void MenuInicialCalculadora()
+        {
             Console.WriteLine("Digite 1 para somar");
 
             Console.WriteLine("Digite 2 para subtrair");
