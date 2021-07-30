@@ -36,7 +36,9 @@ namespace CalculadoraCompartilhada.ConsoleApp
 
                     if (contadorOperacoesRealizadas == 0)
                     {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("Nenhuma conta foi feita!");
+                        Console.ResetColor();
                     }
                     else
                     {
